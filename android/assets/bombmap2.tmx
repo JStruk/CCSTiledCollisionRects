@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="23" height="17" tilewidth="31" tileheight="32" nextobjectid="26">
+ <tileset firstgid="1" name="bomberset" tilewidth="31" tileheight="32" tilecount="160">
+  <image source="basictiles.png" width="496" height="321"/>
+  <tile id="1">
+   <properties>
+    <property name="Block" value="5"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="spawnable" value="6"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Layer1" width="23" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYKIhpiZgQqKHi9nU4o+GCXFmUwpGwwQT0NPsoVBODRcAAKQCAL0=
+  </data>
+ </layer>
+ <layer name="grass" width="23" height="17">
+  <properties>
+   <property name="grass" value="1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYMANmNAwOQDdDEowPc1moSLGZzY1+APh7tEwGQ2TgTB7FNAPAADY6gMd
+  </data>
+ </layer>
+ <objectgroup name="collision">
+  <object id="17" x="0" y="68" width="33" height="376"/>
+  <object id="18" x="0" y="444" width="575"/>
+  <object id="19" x="1" y="67" width="30" height="375"/>
+  <object id="20" x="0" y="419" width="620" height="26"/>
+  <object id="21" x="618" y="65" width="31" height="380"/>
+  <object id="22" x="-1" y="65" width="650" height="28"/>
+  <object id="23" x="374" y="319" width="28" height="31"/>
+  <object id="24" x="497" y="321" width="31" height="32"/>
+  <object id="25" x="494" y="221" width="32" height="35"/>
+ </objectgroup>
+</map>

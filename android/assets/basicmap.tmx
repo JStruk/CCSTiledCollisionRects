@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="16" height="16" tilewidth="31" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="basictiles" tilewidth="31" tileheight="32" tilecount="160">
+  <image source="../../../Bomberman/android/assets/basictiles.png" width="496" height="321"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYKIQkwtG9Y/qH0z6yWEPBvdTggH8AACB
+  </data>
+ </layer>
+</map>
